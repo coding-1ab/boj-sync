@@ -30,14 +30,13 @@ importers:
         version: 3.0.0
 
   workers/practice-scheduler:
-    dependencies:
-      tsconfig:
-        specifier: workspace:^
-        version: link:../../packages/tsconfig
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20230419.0
         version: 4.20230419.0
+      tsconfig:
+        specifier: workspace:^
+        version: link:../../packages/tsconfig
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
@@ -46,14 +45,13 @@ importers:
         version: 3.0.0
 
   workers/solvedac-tier-syncer:
-    dependencies:
-      tsconfig:
-        specifier: workspace:^
-        version: link:../../packages/tsconfig
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20230419.0
         version: 4.20230419.0
+      tsconfig:
+        specifier: workspace:^
+        version: link:../../packages/tsconfig
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
