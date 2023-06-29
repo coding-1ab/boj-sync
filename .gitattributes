@@ -1,0 +1,4 @@
+*.json text linguist-detectable
+*.md text linguist-detectable
+*.{yml,yaml} text linguist-detectable
+*.toml text linguist-detectable
