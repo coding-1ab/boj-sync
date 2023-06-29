@@ -1,5 +1,9 @@
 # BOJ Syncer
 
+> **Warning** \
+> This project is still under active development and may not be stable. \
+> Use it at your own risk.
+
 ## How to build
 
 ```sh
