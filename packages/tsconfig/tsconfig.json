@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"composite": false,
+		"target": "es2021",
+		"lib": ["es2021"],
+		"module": "es2022",
+		"moduleResolution": "node",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"inlineSources": false,
+		"isolatedModules": true,
+		"preserveWatchOutput": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"strict": true
+	}
+}

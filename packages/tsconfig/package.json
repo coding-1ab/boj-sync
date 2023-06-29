@@ -1,0 +1,11 @@
+{
+	"private": true,
+	"name": "tsconfig",
+	"version": "0.1.0",
+	"description": "",
+	"main": "tsconfig.json",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "MIT"
+}
