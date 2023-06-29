@@ -4,7 +4,9 @@
 	"description": "boj syncer for Coding Lab",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"format": "prettier -w ."
 	},
 	"keywords": [],
 	"author": "",
